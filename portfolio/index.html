@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional UI/UX Designer Portfolio">
+    <title>Sherin De Silva - UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Sherin De Silva</span>
+                    <span class="role">UI/UX Designer</span>
+                </h1>
+                <p class="hero-description">
+                    I create beautiful, intuitive, and user-centered digital experiences 
+                    that solve real problems and delight users.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="200" cy="200" r="150" fill="url(#gradient)"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate UI/UX designer with a keen eye for detail and a love for 
+                        creating meaningful digital experiences. With expertise in user research, 
+                        wireframing, prototyping, and visual design, I transform complex problems 
+                        into simple, elegant solutions.
+                    </p>
+                    <p>
+                        My design philosophy centers around empathy and user-centric thinking. 
+                        I believe great design is not just about aesthetics—it's about understanding 
+                        users' needs, behaviors, and emotions to create products that truly make a difference.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <!-- Replace this SVG with your own image: <img src="images/design-icon.png" alt="Design"> -->
+                    <div class="skill-category-image">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="url(#designGradient)" opacity="0.2"/>
+                            <path d="M30 50 L45 35 L70 60 L55 75 Z" fill="url(#designGradient)"/>
+                            <path d="M45 35 L70 35 L70 60 Z" fill="url(#designGradient2)"/>
+                            <defs>
+                                <linearGradient id="designGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="designGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3 class="skill-category-title">Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">User Interface Design<span class="skill-percentage">95%</span></span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">User Experience Design<span class="skill-percentage">90%</span></span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Wireframing & Prototyping<span class="skill-percentage">92%</span></span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Visual Design<span class="skill-percentage">88%</span></span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-image">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="url(#toolsGradient)" opacity="0.2"/>
+                            <rect x="35" y="40" width="30" height="20" rx="3" fill="url(#toolsGradient)"/>
+                            <rect x="40" y="35" width="20" height="5" rx="2" fill="url(#toolsGradient2)"/>
+                            <circle cx="50" cy="50" r="8" fill="url(#toolsGradient2)"/>
+                            <path d="M45 50 L50 45 L55 50 L50 55 Z" fill="white" opacity="0.8"/>
+                            <defs>
+                                <linearGradient id="toolsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="toolsGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3 class="skill-category-title">Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <div class="tool-icon">Figma</div>
+                            <span class="tool-name">Figma</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon">Adobe XD</div>
+                            <span class="tool-name">Adobe XD</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon">Sketch</div>
+                            <span class="tool-name">Sketch</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon">Principle</div>
+                            <span class="tool-name">Principle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-image">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="url(#researchGradient)" opacity="0.2"/>
+                            <circle cx="50" cy="50" r="25" stroke="url(#researchGradient)" stroke-width="3" fill="none"/>
+                            <line x1="65" y1="65" x2="75" y2="75" stroke="url(#researchGradient2)" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="75" cy="75" r="5" fill="url(#researchGradient2)"/>
+                            <defs>
+                                <linearGradient id="researchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="researchGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3 class="skill-category-title">Research</h3>
+                    <div class="research-list">
+                        <div class="research-item">User Research</div>
+                        <div class="research-item">Usability Testing</div>
+                        <div class="research-item">Persona Development</div>
+                        <div class="research-item">User Journey Mapping</div>
+                        <div class="research-item">Information Architecture</div>
+                        <div class="research-item">A/B Testing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent work</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/jedDBSNQHRg7MFAuCUrJrg/Untitled?node-id=0-1&p=f&t=CBBTCMWmPCMnpBeH-0" target="_blank" class="project-link">View on Figma</a>
+                        </div>
+                        <div class="project-placeholder">
+                            <span>Zara Redesign</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Web Redesign</span>
+                        <h3 class="project-title">Zara Website Redesign</h3>
+                        <p class="project-description">
+                            Redesigned Zara website reducing usability issues according to Human Computer Interaction Principles. 
+                            Focused on improving navigation, accessibility, and user experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HCI Principles</span>
+                            <span class="tag">UX Research</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/RQkaRg9LflayzXO1OyCtE3/Untitled?node-id=0-1&p=f&t=CXACU1BstXW5ZHoe-0" target="_blank" class="project-link">View on Figma</a>
+                        </div>
+                        <div class="project-placeholder">
+                            <span>Plant Shop</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">Online Plant Shop</h3>
+                        <p class="project-description">
+                            Designed an Online Plant shop web application according to Human Computer Interaction Principles. 
+                            Created an intuitive e-commerce experience with user-centered design approach.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">E-Commerce</span>
+                            <span class="tag">HCI Principles</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/Da0pBwG2jv3ODz7vxYr5xK/Untitled?t=CBBTCMWmPCMnpBeH-0" target="_blank" class="project-link">View on Figma</a>
+                        </div>
+                        <div class="project-placeholder">
+                            <span>Food Ordering</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Web Application</span>
+                        <h3 class="project-title">Food Ordering Web App</h3>
+                        <p class="project-description">
+                            Designed a food ordering web application according to Human Computer Interaction Principles. 
+                            Streamlined the ordering process with clear navigation and intuitive user flows.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Food Tech</span>
+                            <span class="tag">HCI Principles</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/XJ6QKDZHKhBDzQejeU3tIe/Untitled?node-id=0-1&p=f&t=lj4A4z0aJux1aFdS-0" target="_blank" class="project-link">View on Figma</a>
+                        </div>
+                        <div class="project-placeholder">
+                            <span>Coffee Shop</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Landing Page</span>
+                        <h3 class="project-title">Coffee Shop Landing Page</h3>
+                        <p class="project-description">
+                            Designed a modern and inviting Coffee Shop landing page. Created an engaging first impression 
+                            with beautiful visuals and clear call-to-action elements.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Landing Page</span>
+                            <span class="tag">Visual Design</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/TSo4NTVLwfF0KdbJhsIS6O/Untitled?t=CBBTCMWmPCMnpBeH-0" target="_blank" class="project-link">View on Figma</a>
+                        </div>
+                        <div class="project-placeholder">
+                            <span>Event Booking</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Mobile Application</span>
+                        <h3 class="project-title">Event Booking Mobile App</h3>
+                        <p class="project-description">
+                            Designed an Event Booking mobile application according to Human Computer Interaction Principles. 
+                            Simplified the booking process with mobile-first design and intuitive interactions.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Mobile App</span>
+                            <span class="tag">HCI Principles</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">I'm always open to discussing new projects and opportunities</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🎨</div>
+                        <div class="contact-details">
+                            <h3>Dribbble</h3>
+                            <a href="https://dribbble.com/yourprofile" target="_blank">dribbble.com/yourprofile</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div class="contact-details">
+                            <h3>Behance</h3>
+                            <a href="https://behance.net/yourprofile" target="_blank">behance.net/yourprofile</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sherin De Silva. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
