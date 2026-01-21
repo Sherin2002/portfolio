@@ -1,2 +1,15 @@
-# portfolio
-# UI/UX Design Portfolio 🎨  Welcome to my UI/UX design portfolio repository.  This portfolio showcases my UI/UX projects focused on user-centered design, usability, accessibility, and visual consistency. It includes wireframes, prototypes, user flows, and case studies that demonstrate my design thinking process from research to final interface.  
+# UI/UX Design Portfolio 🎨
+
+This repository contains my UI/UX design projects focused on user-centered design, usability, and modern interface practices.
+
+## What You’ll Find
+- Wireframes and prototypes  
+- User flows and design systems  
+- UI screens and case studies  
+- Figma prototype links  
+
+## Tools Used
+Figma, Adobe XD, Canva, Photoshop
+
+## Contact
+Feel free to connect with me on LinkedIn or GitHub.
